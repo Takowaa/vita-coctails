@@ -1,0 +1,17 @@
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+}
+.title{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 50px 0;
+}
+.links{
+    display: block;
+}

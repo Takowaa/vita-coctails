@@ -1,0 +1,18 @@
+.dFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.title{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+.subtitle{
+    color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}

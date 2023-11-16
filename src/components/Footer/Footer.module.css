@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.title{
+    color: #ffffff;
+    line-height: 22px;
+}
+
+.link{
+    color: #ffffff;
+    line-height: 22px;
+    margin-left: 20px;
+}
