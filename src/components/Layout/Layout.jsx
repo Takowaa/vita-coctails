@@ -1,12 +1,17 @@
 import  { Outlet } from "react-router-dom"
-import HomePage from "../../Pages/HomePage/index.js";
+import styles from './Layout.module.css'
+import Header from "../Header";
+import Footer from "../Footer";
 
 const Layout = () => {
   return (
-    <div>
-      <HomePage />
-      <Outlet />
-    </div>
+      <div className={styles.container}>
+        <Header />
+        <div className={styles.main}>
+          <Outlet />
+        </div>
+        <Footer />
+      </div>
   );
 };
 

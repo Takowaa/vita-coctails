@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 15px 15px;
-
-}
 body{
     background-color: #230312;
     font-family: 'Open Sans', sans-serif;
