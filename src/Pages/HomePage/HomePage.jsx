@@ -1,7 +1,4 @@
-
-import Header from "../../components/Header/index.js";
 import Hero from "../../components/Hero/index.js";
-import Footer from "../../components/Footer/index.js";
 import ProductsList from "../../components/ProductsList/index.js";
 import {useEffect, useState} from "react";
 import IngredientList from "../../components/IngredientList/index.js";
@@ -27,17 +24,10 @@ const HomePage = () => {
 
   return (
     <>
-      <Header />
       <Hero />
       <ProductsList  title='Popular Drinks' products={popularProducts.slice(0,8)} />
       <ProductsList title='Latest Drinks' products={latestProducts.slice(0,8)}  />
       <IngredientList title='ingredients' ingredient={ingredients.slice(0,4)} />
-
-      {/*<IngredientsList ingredients={ingredients} />*/}
-      {/*<ProductPopularDrinks />*/}
-      {/*<ProductLatest />*/}
-      {/*<ProductRandom />*/}
-      <Footer />
     </>
   );
 };
